@@ -2,7 +2,7 @@
     outline: solid 1px rgba(255,0,0,.3);
 }
 body{
-    font-family: sans-serif;
+    font-family: 'Open Sans' , sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -40,7 +40,6 @@ header img{
     width: 100%;
     background: #817F81;
     color: #fff; 
-    font-family: 'Open+Sans', sans-serif;
 }
 .hero h2{
     font-size: 50px;
@@ -55,10 +54,31 @@ header img{
 }
 .col-2{
     width: 40%;
+    margin: 30px 0 60px 0;
 }
 form{
     background: #9B999B;
     border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+form input{
+    box-sizing: border-box;
+    width: 100%;
+}
+form p{
+    padding: 0 5px;
+}
+button{
+    box-sizing: border-box;
+    width: 100%;
+    background: #3FAFF9;
+    border: solid 1px #3FAFF9;
+    cursor: pointer;
+}
+footer p{
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 .clearfix{
     display: table;
